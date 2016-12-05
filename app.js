@@ -1,0 +1,1 @@
+var app = React.createElement('div', null, 'Gauntlet')
