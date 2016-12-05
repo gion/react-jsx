@@ -1,1 +1,4 @@
-var app = React.createElement('div', null, 'Gauntlet')
+var app = React.createElement('div', {
+    style: {color: 'red'},
+    className: "important"
+}, 'Gauntlet')
