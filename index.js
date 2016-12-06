@@ -1,7 +1,4 @@
-
-var app = React.createElement('div', {
-    style: {color: 'red'},
-    className: "important"
-}, 'Gauntlet')
+import app from './app'
+import ReactDOM from 'react-dom'
 
 ReactDOM.render(app, document.getElementById('react-container'))
